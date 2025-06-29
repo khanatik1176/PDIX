@@ -13,6 +13,7 @@ import LandingWhoSection from '@/components/Landing/LandingWhoSection';
 import { ModeContext } from '@/contexts/ModeContext';
 import { useContext } from 'react';
 
+//.
 export default function Home() {
   const { isDarkModeActive, setIsDarkModeActive } = useContext(
     ModeContext
