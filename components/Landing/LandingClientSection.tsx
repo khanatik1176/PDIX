@@ -134,7 +134,7 @@ const LandingClientSection: React.FC<LandingGeneralProps> = ({
                           className='block h-full max-h-[256px] w-full max-w-[250px] lg:pl-4 pt-4 lg:hidden'
                         />
                       </div>
-                      <div className='pt-2 pl-4 lg:pt-20'>
+                      <div className='pt-2 pl-4 lg:pt-20 lg:pl-0'>
                         <p className='font-semibold lg:text-[20px]'>
                           {client.name}
                         </p>

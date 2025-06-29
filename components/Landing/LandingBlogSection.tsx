@@ -16,7 +16,6 @@ const LandingBlogSection: FC<LandingGeneralProps> = ({ DarkModeActive }) => {
     refetchOnWindowFocus: false,
   });
 
-  console.log('blogs', blogs);
   return (
     <div className='px-12 py-8 lg:px-36 lg:py-10 2xl:px-[384px]'>
       <div className='flex flex-col items-start justify-between lg:ml-4 lg:flex-row lg:items-center lg:gap-12 xl:gap-16'>
